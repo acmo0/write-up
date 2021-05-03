@@ -64,7 +64,9 @@ However this is not secure because of the structure of *p* and *q*. Explanation 
 We have `p = a * (2^1024 -e) + u` and `q = a' * (2^1024 -e') + u'` so 
 `n = pq = (a * (2^1024 -e) + u)(a' * (2^1024 -e') + u') = aa'*2^2048 + 2^1024*(a'u +au' -aa'e -aa'e') + aa'ee'-aeu'-a'e'u + uu'`
 When we look at *n* given in the file *output.txt* in hex value we have :
-*n = bf0a8dd7d8f16cad00[some zeros]001002c0b6fc6c3c2949b0a1e097f3c51eff2e8919800[some zeros]00526e422445cbd24c429d60a4a3d75cfd20d09708a2945d9ad2d3b65a55f110eb*
+*n = bf0a8dd7d8f16cad00[some zeros]
+001002c0b6fc6c3c2949b0a1e097f3c51eff2e8919800[some zeros]
+00526e422445cbd24c429d60a4a3d75cfd20d09708a2945d9ad2d3b65a55f110eb*
 When we look at the form of *n* given just before, we see that `aa' = bf0a8dd7d8f16cad = 13765971169208528045`, `a'u +au' -aa'e -aa'e' = 1002c0b6fc6c3c2949b0a1e097f3c51eff2e89198 = 1462483866390329830822836164002145062407975244184 ` and `aa'ee'-aeu'-a'e'u + uu' = 526e422445cbd24c429d60a4a3d75cfd20d09708a2945d9ad2d3b65a55f110eb = 37284463254120829734596659590852831388840149328402126048476097877596519338219`
 So we can deduce a system :
 ```
