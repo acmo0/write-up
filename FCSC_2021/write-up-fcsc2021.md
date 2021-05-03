@@ -1,16 +1,8 @@
 # Write Up of FCSC 2021
 ***
 ## Challenges :
-1. [RSA Destroyer (Crytpo)](rsa-destroyer)
+1. [RSA Destroyer (Crytpo)](##rsa-destroyer)
 2. Malware 1/3 (Forensics)
-***
-## Présentation :
-* Nom, prénom : Frémion Grégoire
-* Nom d'utilisateur : acmo0
-* Âge : 17 ans
-* Parcours : lycéen
-* Expérience :  CTF organisé en 2020 par la DGSE et l’ESIEE ”opération Brigitte Friang” et je suis sur root-me depuis 1 an.
-
 ***
 ## RSA Destroyer
 ### Challenge description : 
