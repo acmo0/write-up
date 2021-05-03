@@ -1,7 +1,7 @@
 # Write Up of FCSC 2021
 ***
 ## Challenges :
-1. [RSA Destroyer (Crytpo)](##rsa-destroyer)
+1. [RSA Destroyer (Crytpo)](#rsa-destroyer)
 2. Malware 1/3 (Forensics)
 ***
 ## RSA Destroyer
