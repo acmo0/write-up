@@ -132,7 +132,7 @@ print(flag) #FCSC{...}
 ## Malware
 
 ### Resolution :
-First of all, we have a file ”snapshot.sav” wich is a memory dump. We know that this file contains a program which can encrypt ”/home/%USER%/Desktop/flag.txt. That means it’s a linux memory dump. We need to find the username, the hostname and the command line which encrypts the flag. Let’s try to find command line with strings and key words using `grep` like malware,admin,fcsc and with fcsc we have an interesting output :
+First of all, we have a file ”snapshot.sav” wich is a memory dump. We know that this file contains a program which can encrypt ”/home/%USER%/Desktop/flag.txt". That means it’s a linux memory dump. We need to find the username, the hostname and the command line which encrypts the flag. Let’s try to find command line with strings and key words using `grep` like malware,admin,fcsc and with fcsc we have an interesting output :
 ```
 strings snapshot . sav | grep ”fcsc”
 output :
