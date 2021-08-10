@@ -8,7 +8,7 @@
 ### Challenge description : 
 *This destroyes the RSA cryptosystem.*
 ### Resolution :
-So, we have to files which are : 
+So, we have two files which are : 
 1. **output.txt** 
 ```
 e = 65538
