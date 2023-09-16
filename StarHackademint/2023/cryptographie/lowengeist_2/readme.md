@@ -10,7 +10,7 @@ On se connecte de nouveau au serveur avec netcat et on recommence à essayer dif
 | ab | cs |
 | aba | csz |
 | abaa| cszp |
-| acaa | ctap|
+| acaa | ctap |
 
 On en déduit plusieurs choses :
 * Il est fort probable que les lettres soient encodées de la manière suivante : a=0,b=1,c=2,...,z=25
