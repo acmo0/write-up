@@ -11,6 +11,7 @@ On se connecte de nouveau au serveur avec netcat et on recommence à essayer dif
 | aba | csz |
 | abaa| cszp |
 | acaa | ctap|
+
 On en déduit plusieurs choses :
 * Il est fort probable que les lettres soient encodées de la manière suivante : a=0,b=1,c=2,...,z=25
 * Le caractère chiffré au rang *n* dépend du clair au rang *n* e *n-1*
