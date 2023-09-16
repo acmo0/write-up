@@ -6,3 +6,4 @@
 | [Surréaction](surreaction/readme.md) | Hard |
 | [Le bon bâton](le_bon_baton/readme.md) | Medium |
 | [Memez](memez/readme.md) | Medium |
+| [Crackers](crackers/readme.md) | Easy |
